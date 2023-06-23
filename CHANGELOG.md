@@ -4,6 +4,8 @@
 * Update build.gradle for React Native 0.59+ compatibility
 * Play audio through earpiece by default
 * Turn on proximity sensor when playing audio
+* Fix build caused by JCenter being removed
+  * Cherry picked from [this commit](https://github.com/react-native-video/react-native-video/commit/9bfd806f76cab8233c32feea04b1477a72d09aa7)
 
 ### Version 5.0.2
 * Fix crash when RCTVideo's superclass doesn't observe the keyPath 'frame' (iOS) [#1720](https://github.com/react-native-community/react-native-video/pull/1720)
